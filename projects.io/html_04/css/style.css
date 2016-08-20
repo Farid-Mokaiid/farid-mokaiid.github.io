@@ -134,6 +134,7 @@ ul:after {
 .information {
     width: 208px;
     float: left;
+    min-height: 547px;
     padding-bottom: 2000px;
     margin-bottom: -2000px;
     background-color: #e8eaec;
@@ -152,6 +153,7 @@ ul:after {
 .news {
     width: 208px;
     float: left;
+    min-height: 547px;
     padding-bottom: 2000px;
     margin-bottom: -2000px;
     background-color: #e8eaec;
