@@ -14,6 +14,9 @@ body {
     height: 990px;
     margin-left: 150px;
     background-color: #ffffff;
+    -webkit-box-shadow: 0 5px 10px #000;
+    -moz-box-shadow: 0 5px 10px #000;
+    box-shadow: 0 5px 10px #000;
 }
 
 /*HEADER*/
@@ -80,7 +83,9 @@ ul {
   height: 30px;
   font-size: 14px;
   margin-top: -4px;
-
+  -webkit-box-shadow: 0 1px 2px #000;
+  -moz-box-shadow: 0 1px 2px #000;
+  box-shadow: 0 1px 2px #000;
 }
 .menu> li {
     /*float: left;*/
@@ -108,6 +113,9 @@ ul {
     left: -6px;
     background-color: #242424;
     border: 1px solid black;
+    -webkit-box-shadow: 0 1px 2px #000;
+    -moz-box-shadow: 0 1px 2px #000;
+    box-shadow: 0 1px 2px #000;
 }
 .submenu> li {
     display: inline-block;
