@@ -4,7 +4,7 @@
 }
 body {
     height: 1020px;
-    width: 1280px;
+    width: 100%;
     font-family: Tahoma;
     background-image: url(../img/background.png);
     background-repeat: repeat-x;
@@ -12,7 +12,7 @@ body {
 .wrapper {
     width: 1000px;
     height: 990px;
-    margin-left: 150px;
+    margin:0 auto;
     background-color: #ffffff;
     -webkit-box-shadow: 0 5px 10px #000;
     -moz-box-shadow: 0 5px 10px #000;
@@ -86,6 +86,8 @@ ul {
   -webkit-box-shadow: 0 1px 2px #000;
   -moz-box-shadow: 0 1px 2px #000;
   box-shadow: 0 1px 2px #000;
+  position: relative;
+  z-index: 2;
 }
 .menu> li {
     /*float: left;*/
@@ -141,23 +143,30 @@ ul {
 
 .content {
     width: 1000px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     font-size: 14px;
+    display: -webkit-flex;
+    display: flex;
+    z-index: 2;
 }
 .content h1 {
     font-size: 18px;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .content p {
     padding-left: 15px;
     padding-right: 15px;
+    /*margin-top: 10px;*/
+    line-height: 24px;
 }
 .information {
     width: 208px;
-    float: left;
+    /*float: left;*/
     min-height: 550px;
-    padding-bottom: 2000px;
-    margin-bottom: -2000px;
+    /*padding-bottom: 2000px;
+    margin-bottom: -2000px;*/
     background-color: #e8eaec;
     border-left: 1px solid #bbbec4;
     border-right: 1px solid #bbbec4;
@@ -167,16 +176,16 @@ ul {
 }
 .mainblock {
     width: 580px;
-    float: left;
+    /*float: left;
     padding-bottom: 2000px;
-    margin-bottom: -2000px;
+    margin-bottom: -2000px;*/
 }
 .news {
     width: 208px;
-    float: left;
+    /*float: left;*/
     min-height: 550px;
-    padding-bottom: 2000px;
-    margin-bottom: -2000px;
+    /*padding-bottom: 2000px;
+    margin-bottom: -2000px;*/
     background-color: #e8eaec;
     border-left: 1px solid #bbbec4;
     border-right: 1px solid #bbbec4;
@@ -185,8 +194,11 @@ ul {
 /*FOOTER*/
 
 .footer {
-    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    /*text-align: center;*/
     color: #acc4d4;
     font-size: 12px;
     padding: 10px;
+    justify-content: center;
 }
