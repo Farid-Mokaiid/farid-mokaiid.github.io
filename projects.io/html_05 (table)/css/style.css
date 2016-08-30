@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   overflow: auto;
+  background-color: #000000;
 }
 
 .RBY {
@@ -16,6 +17,7 @@
   height: 541px;
   border-collapse: collapse;
   margin: auto; /*разобраться с flex*/
+  background-color: #fff;
 }
 
 td {
