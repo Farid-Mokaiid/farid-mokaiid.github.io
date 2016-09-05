@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   overflow: auto;
-  background-color: #000000;
+  /*background-color: #000000;*/
 }
 
 .RBY {
@@ -16,6 +16,7 @@
   width: 500px;
   height: 541px;
   border-collapse: collapse;
+  border: 0;
   margin: auto; /*разобраться с flex*/
   background-color: #fff;
 }

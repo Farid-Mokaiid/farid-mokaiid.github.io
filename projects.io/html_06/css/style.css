@@ -1,0 +1,201 @@
+.wrapper{
+  width: 910px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+}
+header{
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+}
+.phones{
+  display: inline-block;
+  width: 300px;
+  height: 100%;
+  font: 19px Arial, Helvetica, sans-serif;
+  color: #6d767a;
+}
+.phones img,span{
+  display: inline;
+  line-height: 45px;
+  vertical-align: middle;
+
+}
+.phones img{
+  padding-left: 5px;
+}
+.login_class{
+  width: 495px;
+  height: 25px;
+  background-color: #0c3256;
+  background: linear-gradient(to top, #0c3256, #206988);
+  border-radius: 2px;
+  margin-top: 8px;
+  margin-left: 14px;
+  box-shadow: 0 5px 10px #969696;
+  line-height: 25px;
+  font: 11px "Lucida Sans Unicode" Tahoma;
+
+}
+.login_class img{
+  display: block;
+  float: left;
+  width: 14px;
+  margin-left: 6px;
+  margin-top: 5px;
+}
+.login_form {
+  display: block;
+  height: 23px;
+  float: left;
+  margin-left: 6px;
+  margin-top: 3px;
+  }
+.login_form input{
+  display: block;
+  width: 108px;
+  float: left;
+  height: 15px;
+  margin-right: 8px;
+  padding-left: 3px;
+  /*padding-bottom: 2px;*/
+  border: 1px solid #6c7e8c;
+  border-radius: 1px;
+  color: #a7b0b3;
+}
+.enter, .forgot_psw  {
+  float: left;
+  margin-top: 4px;
+}
+.enter a, .forgot_psw a{
+  display: inline-block;
+  line-height: 10px;
+}
+.enter a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.enter a:first-child {
+  border-right: 1px solid #ffffff;
+  padding-right: 4px;
+}
+.forgot_psw{
+  padding-left: 20px;
+}
+.forgot_psw a{
+  color: #b7b8ba;
+  font-size: 12px;
+}
+.mini-menu{
+  width: 75px;
+  height: 20px;
+  border: 1px solid #d3d8da;
+  margin-left: 17px;
+  margin-top: 9px;
+  border-radius: 20px;
+}
+.mini-menu img{
+  display: inline-block;
+  margin-left: 6px;
+}
+/*-------NAV-------*/
+.main_nav{
+  height: 35px;
+  width: 100%;
+  background-color: #000000;
+  background: linear-gradient(to top, #000000 80%, #576068);
+  border-radius: 5px;
+  font: 13.64px "Lucida Sans Unicode" Tahoma;
+}
+nav {
+  width: auto;
+  height: 100%;
+  display: block;
+  margin-left: 133px;
+  float: left;
+
+}
+nav ul{
+  list-style: none;
+  margin-top: 3px;
+
+}
+nav ul a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  margin-left: 2px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+nav ul a:hover{
+  color: #e9ecef;
+  background-color: #0d3458;
+  background: linear-gradient( to top, #0d3458, #1f6787);
+  border-radius: 20px;
+
+}
+nav ul li{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 15px;
+  text-align: center;
+  color: #b1bcc0;
+  text-transform: uppercase;
+}
+/*-------NAV-------*/
+.cart{
+  display: inline-block;
+  width: 220px;
+  height: 35px;
+  /* float: left; */
+  color: #868e92;
+  font: 11px Arial, Helvetica, Sans-serif;
+  margin-left: 53px;
+  letter-spacing: 0.4px;
+}
+.cart img{
+  float: left;
+  margin-top: 10px;
+}
+.products{
+position: relative;
+top: -4px;
+left: 4px;
+}
+.products_total_price{
+position: relative;
+top: -4px;
+left: 7px;
+}
+.products, .products_total_price{
+  width: auto;
+  float: left;
+}
+.tovarov_count, .total_price_count{
+  display: inline-block;
+  color: #104c77;
+  font-size: 12px;
+}
+.tovarov {
+  display: inline-block;
+  margin-left: 3px;
+}
+.tovarov_count{
+  margin-left: 2px;
+}
+.total_price{
+  display: inline-block;
+  margin-left: 11px;
+}
+.total_price_count{
+  margin-left: 11px;
+}
+/*-----------CONTENT-------------*/
+
+/*-----------CONTENT-------------*/
+/*-----------FOOTER-------------*/
+
+/*-----------FOOTER-------------*/
